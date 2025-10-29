@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment-4</title>
+</head>
+<body>
+    <h1><center>Hotel Room Booking Form</center></h1>
+    <form action="action.html" target="_blank" method="get">
+        <center>
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" id="name" required placeholder="Full Name Here">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="tel" id="tel" required>
+            <br><br>
+            <label for="cid">Check-in Date:</label>
+            <input type="date" required  name="cid" id="cid">
+            <br><br>
+            <label for="cod">Check-Out Date:</label>
+            <input type="date" name="cod" id="cod" required>
+            <br><br>
+            <label for="room">Room Type:</label>
+            <select name="roomtype" id="rt">
+                <option value="default">Select Room Type</option>
+                <option value="singroom">Single Room</option>
+                <option value="dblroom">Double Room</option>
+                <option value="tplroom">Triple Room</option>
+            </select>
+            <br><br>
+            <label for="Guests">Number of Guests:</label>
+            <input type="number" min="1" max="8">
+            <br><br>
+            <label for="sprq">Special Request</label>
+            <br>
+            <textarea name="request" id="specialreq" rows="5" cols="40"></textarea>
+            <br><br>
+            <input type="submit" value="Book Now">
+            <input type="reset" value="Reset Form">
+        </center>
+    </form>
+</body>
+</html>

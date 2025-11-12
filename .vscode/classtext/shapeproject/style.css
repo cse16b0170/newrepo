@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.shape{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+}
+#squre:hover{
+    background-color: aquamarine;
+}
+#circle{
+    border-radius: 50%;
+}
+#circle:hover{
+    background-color: blue;
+}
+#rotate{
+    rotate: 45deg;
+    margin-top: 50px;
+}
+#rotate:hover{
+    background-color: black;
+}
+#rotate h1{
+    rotate: -45deg;     
+}
+

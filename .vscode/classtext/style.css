@@ -1,9 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
 /* body styles */
 body {
     font-family: Arial, sans-serif;
     background-color: gray;
     text-align: center;
-    margin: 20px;
+    margin: 2px;
 }
 /* heading styles */
 h1 {
@@ -17,14 +25,13 @@ p {
 }
 /* link styles */
 a {
-    color: #0066cc;
+    background-color: #0066cc;
     text-decoration: none;
 }
 /* link hover styles */
 a:hover {
     text-decoration: underline;
-}  
-/price class styles/
+}   
 .price {    
     font-size: 24px;
     color: red;
@@ -40,10 +47,10 @@ button {
 }
 /* button hover styles */
 button:hover {
-    background-color: #005bb5;
+    background-color: orchid;
 }
 .product  {
-    border: 2px solid red;
+    border: 8px solid red;
     padding: 10px;
     margin: 20px;
     display: inline-block;

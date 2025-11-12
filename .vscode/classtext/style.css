@@ -1,0 +1,53 @@
+/* body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+    text-align: center;
+    margin: 20px;
+}
+/* heading styles */
+h1 {
+    color: black;
+    margin-bottom: 10px; 
+}
+/* paragraph styles */
+p {
+    color: #333;
+    line-height: 1.6;
+}
+/* link styles */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+/* link hover styles */
+a:hover {
+    text-decoration: underline;
+}  
+/price class styles/
+.price {    
+    font-size: 24px;
+    color: red;
+    margin: 20px 0;
+}
+/* button styles */
+button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+/* button hover styles */
+button:hover {
+    background-color: #005bb5;
+}
+/product box styles/
+.product  {
+    border: 1px solid red;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}

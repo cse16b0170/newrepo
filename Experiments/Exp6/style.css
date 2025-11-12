@@ -1,0 +1,52 @@
+/* body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+}
+/* heading styles */
+h1 {
+    color: black;
+    margin-bottom: 10px; 
+}
+/* paragraph styles */
+p {
+    color: #333;
+    line-height: 1.6;
+}
+/* link styles */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+/* link hover styles */
+a:hover {
+    text-decoration: underline;
+}  
+.price {    
+    font-size: 24px;
+    color: red;
+    margin: 20px 0;
+}
+/* button styles */
+button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+/* button hover styles */
+button:hover {
+    background-color: #005bb5;
+}
+.product {
+    border-radius: 2%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+}

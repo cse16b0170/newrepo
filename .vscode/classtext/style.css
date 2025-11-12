@@ -42,9 +42,8 @@ button {
 button:hover {
     background-color: #005bb5;
 }
-/product box styles/
 .product  {
-    border: 1px solid red;
+    border: 2px solid red;
     padding: 10px;
     margin: 20px;
     display: inline-block;

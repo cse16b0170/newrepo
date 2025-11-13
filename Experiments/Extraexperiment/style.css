@@ -1,0 +1,27 @@
+/* bootstap ,javascipt,react,springboot */
+#Without{
+    display: flex;
+    
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: blue;
+}
+#box3{
+    background-color: greenyellow;
+}
+h3{
+    color: white;
+}
